@@ -12,7 +12,7 @@ spec:
       port:
         number: 8080
   rules:
-    - host: "NODEIP:NodePort"
+    - host: 'NODEIP:NodePort'
       http:
         paths:
         - path: /student
