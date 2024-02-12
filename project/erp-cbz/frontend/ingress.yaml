@@ -12,7 +12,7 @@ spec:
       port:
         number: 8080
   rules:
-    - host: "NODEIP:LOADBALANCER"
+    - host: "NODEIP:LodeBalancer"
       http:
         paths:
         - path: /student
